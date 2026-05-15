@@ -103,10 +103,6 @@ header('Content-Type: text/html; charset=utf-8');
 
         <div class="sub-text">Заказать пентест вашего проекта</div>
         <a class="tg-link" href="https://t.me/xstag3" target="_blank">https://t.me/xstag3</a>
-
-        <div class="warning-text">
-            Если не хотите чтоб вас обманули — покупайте в норм местах:&nbsp;
-            <a href="https://smgcheats.com" target="_blank">smgcheats.com</a>
         </div>
     </div>
 </body>
