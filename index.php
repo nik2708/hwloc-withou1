@@ -49,10 +49,11 @@ header('Content-Type: text/html; charset=utf-8');
         }
 
         .sub-text {
-            font-size: clamp(0.9rem, 2vw, 1.2rem);
-            color: #888;
+            font-size: clamp(1.1rem, 2.8vw, 1.8rem);
+            font-weight: 700;
+            color: #cccccc;
             letter-spacing: 1px;
-            margin-bottom: 12px;
+            margin-bottom: 14px;
         }
 
         .tg-link {
@@ -69,6 +70,23 @@ header('Content-Type: text/html; charset=utf-8');
             text-shadow: 0 0 12px rgba(42, 171, 238, 0.6);
         }
 
+        .warning-text {
+            margin-top: 28px;
+            font-size: clamp(0.75rem, 1.6vw, 1rem);
+            color: #666;
+            letter-spacing: 0.5px;
+        }
+
+        .warning-text a {
+            color: #e8a020;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .warning-text a:hover {
+            color: #ffc04d;
+        }
+
         @keyframes pulse {
             0%, 100% { opacity: 1; }
             50% { opacity: 0.75; }
@@ -83,8 +101,13 @@ header('Content-Type: text/html; charset=utf-8');
 
         <div class="divider"></div>
 
-        <div class="sub-text">Услуги разработки</div>
+        <div class="sub-text">Заказать пентест вашего проекта</div>
         <a class="tg-link" href="https://t.me/xstag3" target="_blank">https://t.me/xstag3</a>
+
+        <div class="warning-text">
+            Если не хотите чтоб вас обманули — покупайте в норм местах:&nbsp;
+            <a href="https://smgcheats.com" target="_blank">smgcheats.com</a>
+        </div>
     </div>
 </body>
 </html>
